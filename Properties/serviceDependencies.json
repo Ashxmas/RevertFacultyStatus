@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "cosmosdb1": {
+      "type": "cosmosdb",
+      "connectionId": "ConnectionStrings:AccountEndpoint=https://faculty-availability-dashboard.documents.azure.com:443/;AccountKey=KsbXgkqIoVF5K0fFm2hPgvLRQNtyE4Fno1z1xAzM1w890h0EoPoqicJ48JbftTIfujixCoBpwOGvACDbd6vZpg==;",
+      "dynamicId": null
+    }
+  }
+}
